@@ -1,0 +1,125 @@
+body {
+    background-color: #f1faee;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.5em;
+    color: #003049;
+}
+
+h2 {
+    padding-bottom: 15px;
+    font-family: 'Ubuntu', bold, sans-serif;
+    text-align: center;
+    color: #f1faee;
+}
+
+form {
+    display: block;
+    color: #f1faee;
+    float: inline-start;
+}
+
+td {
+    height: 50px;
+    vertical-align: top;
+}
+
+.container {
+    width: 50%;
+    background-color: #669bbc;
+    box-shadow: 0 0 50px 10px #adb5bd;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.length-descr {
+    padding: 5px 25px;
+}
+
+.option-item {
+    display: block;
+    margin: 0 12px 0 0;
+    padding: 7px 20px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    vertical-align: text-top;
+    border: none;
+}
+
+.btn-main {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/* BUTTONS */
+
+.btn-primary {
+    background-color: #f6bd60;
+    font-family: 'Ubuntu', sans-serif;
+    color: #003049;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 15px;
+    transition: 0.500ms;
+    -webkit-transition: all 500ms ease;
+}
+
+.btn-primary:hover {
+    border-radius: 5px;
+    background-color: #003049;
+    color: #f6bd60;
+}
+
+.btn-about {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #403d39;
+    padding-top: 30px;
+}
+
+.btn-home {
+    display: block;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #403d39;
+    padding-top: 30px;
+}
+
+
+/* PASSWORD PAGE */
+
+.your-pass {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 2em;
+    letter-spacing: 5px;
+    text-align: center;
+    background: #003049;
+    color: bisque;
+}
+
+
+/* ABOUT */
+
+.copyright {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1em;
+    color: #003049;
+}
